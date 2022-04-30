@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Covid Cases in US</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-map1.css"/>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <div id="title">
+        Covid Rates in US, 2020
+    </div>
+    <div id="subtitle">
+        by County Level, per 1000 people
+    </div>
+    <div class='map-overlay' id='legend'></div>
+    <div id="description">
+        Map Author: Harrison Liao <br>
+        Basemap: Mapbox and © OpenStreetMap contributors <br>
+        DataSource: cases count from New York Times, <br> 
+        shapefile and population from the U.S. Census Bureau
+    </div>
+    <script src="js/map1.js"></script>
+
+</body>
+</html>
