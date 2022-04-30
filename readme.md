@@ -8,12 +8,12 @@ hxliaoay@uw.edu
 In this project two maps were made to tackle the topic of the spread of Covid-19 cases in the United States, measured by the county level with data from 2020.  The first map is a choropleth map made to examine the rate of getting Covid-19, measured by case per 1,000 people on a county level.  The second map is a proportional symbol map that maps out the total number of cases of Covid-19 by county.  Maps can be found below:
 
 
-#### [map 1: Covid Rates in US, 2020](map1covid.html)
+#### [map 1: Covid Rates in US, 2020](map1.html)
 ![map 1](img/map1.png)
 
 This map is made by implementing a Mapbox as the base map layer and inserting a geojson file that contains county shapes and data located with it.  Then the choropleth layer and its legend are added, colors using a scale from YlOrRd color ramp with rates sorted by natural breaks. The remaining text is built from html text blocks.
 
-#### [map 2: Covid Cases in US, 2020](map1covid.html)
+#### [map 2: Covid Cases in US, 2020](map2.html)
 ![map 2](img/map2.png)
 
 This map is made by implementing a Mapbox as the base map layer and inserting a geojson file with a dot representing each county, along with its data.  The proportional symbol is added as a map layer, scaled both in size and a YlGnBu color ramp, sorted by natural breaks.  The remaining text is built from html word blocks.
